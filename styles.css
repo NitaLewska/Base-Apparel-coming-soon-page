@@ -14,6 +14,7 @@ body {
     height: 100vh;
     width: 100vw;
     font-family: 'Josefin Sans', sans-serif;
+
 }
 
 main {
@@ -27,6 +28,7 @@ div{
     width: 100%;
     background: linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%)) top left;
     background-image: url(images/bg-pattern-desktop.svg);
+    padding-right: 60px;
 }
 
 section{
@@ -38,7 +40,7 @@ section{
 
 main img {
     margin-top: 64px;
-    width: 175px;
+    width: 170px;
 }
 
 aside{
@@ -50,7 +52,7 @@ aside{
 }
 
 h1 {
-    font-size: 54px;
+    font-size: 60px;
     text-transform:uppercase;font-weight: 300;
     letter-spacing: 12px;
     margin-top: 130px;
