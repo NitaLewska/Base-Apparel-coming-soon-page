@@ -1,0 +1,74 @@
+/* Box Model Fix */
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+    margin: 0px;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+main {
+    flex-basis: 58%;
+    background: linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%)) bottom right;
+    background-size: cover;
+}
+
+div{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%)) top left;
+    background-image: url(images/bg-pattern-desktop.svg);
+}
+
+section{
+    width: 460px;
+    margin:0 auto;
+    display: flex;
+    flex-direction: column;   
+}
+
+main img {
+    margin-top: 64px;
+    width: 175px;
+}
+
+aside{
+    background: url(images/hero-desktop.jpg);
+    flex-basis: 42%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: auto; 
+}
+
+h1 {
+    font-size: 54px;
+    text-transform:uppercase;font-weight: 300;
+    letter-spacing: 12px;
+    margin-top: 130px;
+    color: hsl(0, 36%, 70%)
+}
+
+h1 span {
+    font-weight: 700;
+    color: black;
+}
+
+h1+p {
+    color: hsl(0, 36%, 70%);
+}
+
+input {
+    width:445px;
+    height:56px;
+    border-radius: 25px;
+    border: solid 1px hsl(0, 36%, 70%);
+}
