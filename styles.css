@@ -81,8 +81,8 @@ form {
 input {
     width:445px;
     height:56px;
-    border-radius: 25px;
-    border: solid 1px hsl(0, 36%, 70%);
+    border-radius: 30px;
+    border: solid 1px hsla(0, 36%, 70%, 0.685);
     padding-left: 30px;
     background-color: transparent;
     color: hsl(0, 36%, 70%);
@@ -93,7 +93,7 @@ button{
     margin-left: -100px;
     height: 56px;
     width: 100px;
-    border-radius:25px;
+    border-radius:30px;
     background: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
     border: none;
     color:white;
