@@ -52,7 +52,7 @@ aside{
 }
 
 h1 {
-    font-size: 60px;
+    font-size: 64px;
     text-transform:uppercase;font-weight: 300;
     letter-spacing: 15px;
     margin-top: 130px;
@@ -66,6 +66,7 @@ h1 span {
 
 h1+p {
     color: hsl(0, 36%, 70%);
+    margin-top: 40px;
 }
 
 input {
@@ -73,4 +74,5 @@ input {
     height:56px;
     border-radius: 25px;
     border: solid 1px hsl(0, 36%, 70%);
+    margin-top: 40px;
 }
