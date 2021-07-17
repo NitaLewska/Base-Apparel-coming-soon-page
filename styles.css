@@ -96,6 +96,10 @@ button{
     border-radius:30px;
     background: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
     border: none;
-    color:white;
-    font-size: 25px;
+}
+
+button img{
+    height: 20px;
+    width: 12px;
+    margin-top: 10px;
 }
