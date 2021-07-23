@@ -146,6 +146,26 @@ button img{
     display: none;
 }
 
+@media (max-width: 1023px) {
+
+    .logo {
+    margin-left: 40px;  
+    }
+
+    section {
+        margin-left: 40px;
+    }
+
+    #error_text {
+        color:hsl(0, 36%, 70%);
+        text-align:left;
+        color: hsl(0, 93%, 68%)
+
+    }
+    
+
+}
+
 @media (max-width: 900px) {
     
     main {
@@ -228,23 +248,5 @@ button img{
 
 }
 
-@media (max-width: 1023px) {
 
-    .logo {
-    margin-left: 40px;  
-    }
-
-    section {
-    margin-left: 40px;
-    }
-
-    #error_text {
-        color:hsl(0, 36%, 70%);
-        text-align:left;
-        color: hsl(0, 93%, 68%)
-
-    }
-    
-
-}
 
