@@ -143,20 +143,32 @@ button img{
 }
 
 @media (max-width: 1023px) {
+    
     main {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 3fr 6fr;
+        height: auto;
     }
 
     aside {
         grid-row: 2/3;
         grid-column: 1/2;
         background-image: url(images/hero-mobile.jpg);
+        min-height:250px;
     }
 
     section {
         grid-row: 3/4;
         grid-column: 1/2;
+        text-align: center;
+        margin: 0 auto;
+        width: 85%;
+    }
+
+    .logo {
+        margin: 0;
+        align-self: center;
+        margin-left: 30px;
     }
 
     h1 {
@@ -167,89 +179,30 @@ button img{
         color: hsl(0, 36%, 70%);
         line-height: 1;
     }
-}
 
-
-
-/* 
-@media (max-width: 1023px) {
-    body {
-        flex-direction: column-reverse;
-        height: auto;
-    }
-
-    main{
-        flex-basis: auto;
-    }
-
-    aside{
-        min-height: 67vw;
-        margin-left: 0;
-        background: url(images/hero-mobile.jpg);
-        background-repeat: no-repeat;
-        background-size:contain;
-    }
-    
-    div{
-        height: 100%;
-        width: 100%;
-        background: none;
-    }
-    
-    section{
-        width: 460px;
-        margin:0 auto;
-        display: flex;
-        flex-direction: column;   
-    }
-    
-    main img {
-        margin-top: 64px;
-        width: 160px;
-    }
-      
-    h1 {
-        font-size: 64px;
-        text-transform:uppercase;font-weight: 300;
-        letter-spacing: 15px;
-        margin-top: 135px;
-        color: hsl(0, 36%, 70%);
-        line-height: 1;
-    }
-    
-    h1 span {
-        font-weight: 700;
-        color: black;
-    }
-    
     h1+p {
-        color: hsl(0, 36%, 70%);
-        margin-top: 30px;
-        line-height: 1.8;
-        width: 80vw;
+        width: auto;
     }
-    
+
     form {
-        margin-top: 40px;
-        display: flex;
-        align-items: center;
+        width:85vw;
+        max-width:445px;
+        margin: 0 auto;
+        margin-top: 35px;
     }
-    
+
     input {
-        width:80vw;
-        height:56px;
-        border-radius: 30px;
-        border: solid 1px hsla(0, 36%, 70%, 0.685);
-        padding-left: 30px;
-        background-color: transparent;
-        color: hsl(0, 36%, 70%);
-        outline:none;
+        max-width:445px;
+        width: 100%;
+        margin: 0 auto;
+        height: 47px;
+
     }
-    
+
     button{
-        margin-left: -100px;
-        height: 56px;
-        width: 100px;
+        margin-left: -65px;
+        height: 47px;
+        width: 65px;
         border-radius:30px;
         background: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
         border: none;
@@ -257,13 +210,6 @@ button img{
         -moz-box-shadow:    0px 14px 23px 0px rgba(50, 50, 50, 0.27);
         box-shadow:         0px 14px 23px 0px rgba(50, 50, 50, 0.27);
     }
-    
-   
-    button img{
-        height: 20px;
-        width: 12px;
-        margin-top: 10px;
-    }
-
 }
- */
+
+
